@@ -1,0 +1,6 @@
+# Набор команд
+
+Инструкция представляет собой 8 битное слово.
+
+<table><thead><tr><th width="252">Мнемоника</th><th width="251">Операция</th><th width="207">Операнды</th></tr></thead><tbody><tr><td>NOOP</td><td>-</td><td>-</td></tr><tr><td>NAND</td><td>RC ← RA NAND RB</td><td>-</td></tr><tr><td>NOR</td><td>RC ← RA NOR RB</td><td>-</td></tr><tr><td>SHL</td><td>битовый сдвиг влево RС</td><td>-</td></tr><tr><td>SHR</td><td>биитовый сдвиг вправо RC</td><td>-</td></tr><tr><td>ROR</td><td>циклический битовый сдвиг вправо RC</td><td>-</td></tr><tr><td>ROL</td><td>циклический битовый сдвиг влево RC</td><td>-</td></tr><tr><td>ADD</td><td>RC ← RA + RB</td><td>-</td></tr><tr><td>SUB</td><td>RC ← RA -RB</td><td>-</td></tr><tr><td>INC</td><td>RC + 1</td><td>-</td></tr><tr><td>DEC</td><td>RC -1</td><td>-</td></tr><tr><td>JMPL</td><td>если RL &#x3C; 0, CL  ← RL</td><td>-</td></tr><tr><td>JMPM</td><td>если RL > 0, CL  ← RL</td><td>-</td></tr><tr><td>JMPE</td><td>если RL = 0, CL  ← RL</td><td>-</td></tr><tr><td>JUMP</td><td>безусловный переход</td><td>-</td></tr><tr><td>MOV</td><td>reg2 ← reg1</td><td>reg1, reg2</td></tr><tr><td>READ</td><td>RC ← mem[RL]</td><td>-</td></tr><tr><td>WRT</td><td>mem[RL] ← RC</td><td>-</td></tr><tr><td>IN</td><td>RC ← PORTIN</td><td>reg</td></tr><tr><td>OUT</td><td>PORTOUT ← reg</td><td>reg</td></tr></tbody></table>
+
